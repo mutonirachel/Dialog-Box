@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: #212529;
+}
+.main-page{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.avatar-container{
+    width: 90px;
+    height: 90px;
+    border: 1px solid #999;
+    border-radius: 50%;
+    position: relative;
+}
+.avatar-container button{
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    background-color: #495057;
+    border: none;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.add-user{
+    width: 90px;
+    height: 90px;
+    border: 1px solid #999;
+    border-radius: 50%;
+    position: relative; 
+}
+.add-user button{
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    background-color: #495057;
+    border: none;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.avatar-container img{
+    width: 100%;
+}
+
+.cancel-btn{
+    background-color: rgb(81, 82, 80);
+    color: white;
+   font-weight: bolder;
+   border: none;
+   padding-bottom: 5px;
+   padding-left: 10px;
+   border-radius: 4px;
+   padding-right: 12px;
+   padding-top: 5px;
+}
+.confirm-btn{
+    background-color: #212529;
+      color: rgb(156, 153, 207);
+      font-weight: bolder;
+      left: 20px;
+      border: rgb(81, 82, 80);
+      padding-bottom: 3px;
+      padding-top: 3px;
+      border: 10px;
+      padding-left: 10px;
+      border: 2px solid gray;
+      padding-right: 10px;
+      border-radius: 3px;
+      
+}
+dialog{
+    width: 320px;
+    min-height: 120px;
+    background: #212529;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 3px 8px 9px rgb(0 0 0 / 54%);
+    overflow: hidden;
+    position: absolute;
+    bottom: 20px;
+    
+}
+.dialog-header{
+    display: flex;
+    height: 60px;
+    background: rgb(81, 82, 80);;
+    box-shadow: 3px 3px 3px rgb(0 0 0 / 54%);
+    align-items: center;
+    padding: 0 16px;
+    
+}
+.dialog-header svg{
+    stroke: #fff;
+    fill: transparent;
+}
+.dialog-title{
+    font-size: 16px;
+    color: #ffffff;
+}
+.dialog-actions{
+    padding-left: 158px;
+}
+
+.dialog-user{
+    background-color: #212529;
+    margin-left: 690px;
+    box-shadow: 7px 9px 9px rgba(10, 10, 10, 0.54);
+    width: 348px;
+    top: 10px;
+    border-radius: 17px;
+    
+}
+.n-userhead{
+    color: white;
+    display: flex; 
+    gap: 7px;
+}
+.n-user{
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif; 
+    padding-top: 15px;
+    padding-left: 2px;
+}
+.n-userhead button{
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    background-color: rgb(81, 82, 80);
+    border: none;
+    color: white;
+    box-shadow: 3px 10px 9px rgba(10, 10, 10, 0.54);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    font-weight: bold;
+}
+svg{
+    fill: white;
+    padding-left: 2px;
+}
+.upload-image{
+    display: flex;
+    background-color: rgb(81, 82, 80);
+    height: 45%;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 25px;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 54%);
+    
+}
+.s-buttons{
+text-align: center;
+white-space: nowrap;
+
+}
+.no{
+    background-color: #070707;
+    color: white;
+    padding-right: 19px;
+    font-size: 12px;
+    height: 35%;
+    padding-top: 2px;
+    padding-bottom: 10px;
+
+}
+.choose{
+    background-color: rgb(139, 136, 136);
+    color: white;
+    width: 35%;
+    height: 35%; 
+    border: none;
+    font-size: 12px;
+    border-radius: 4px;
+}
+.upload{
+    color: white;
+    font-size: 13px;
+    font-weight: bolder;
+    display: flex;
+    padding-right: 10px;
+    padding-top: 2px;
+}
+.max{
+    display: flex;
+   color: white;
+   font-size: 13px; 
+   font-weight: bolder;
+   padding-right: 90px;
+   padding-top: 10px;
+   
+}
+.t-buttons{
+    display: flex;
+
+}
+.can{
+    background-color: rgb(81, 82, 80);
+    color: white;
+   font-weight: bolder;
+   border: none;
+   padding-bottom: 5px;
+   padding-left: 10px;
+   border-radius: 4px;
+   padding-right: 12px;
+   padding-top: 5px;
+
+}
+
+.con{
+    background-color: #212529;
+      color: rgb(156, 153, 207);
+      font-weight: bolder;
+      left: 20px;
+      border: rgb(81, 82, 80);
+      padding-bottom: 3px;
+      padding-top: 3px;
+      border: 10px;
+      padding-left: 10px;
+      border: 2px solid gray;
+      padding-right: 10px;
+      border-radius: 3px;
+      
+   }
+.can-con{
+    padding-left: 130px;
+    
+
+}
+.clr{
+    background-color: #212529;
+   color: rgb(250, 145, 180);
+   font-weight: bolder;
+   padding-left: 10px;
+   padding-right: 10px;
+   border-radius: 4px;
+   border: 2px solid gray;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
